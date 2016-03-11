@@ -19,6 +19,15 @@ and updates your ELB to use the certificate.
 In theory all you need to do is make sure this is running somewhere, and your
 ELBs' certificates will be kept minty fresh.
 
+## How to install it
+
+```console
+$ git clone {THIS}
+$ cd letsencrypt-aws
+$ sudo apt-get install build-essential libffi-dev python
+$ sudo pip install -r requirements.txt
+```
+
 ## How to run it
 
 Before you can use `letsencrypt-aws` you need to have created an account with
